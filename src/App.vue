@@ -36,7 +36,7 @@ export default {
   border: 2px solid #000;
   color: #2c3e50;
   margin: 60px auto auto auto;
-  width: 600px;
+  width: 800px;
   height: 100%;
   padding: 3%;
 }

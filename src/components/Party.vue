@@ -1,8 +1,10 @@
 <template>
-    <div id="party">
-        <div v-if="partySubmit">
-            <label for="">How many people are in the party </label>
-            <input type="text" class="form-control" v-on:keyup.enter="submit">
+    <div>
+        <div v-if="partySubmit" class="">
+            <div>
+                <label for="">How many people are in the party </label>
+                <input type="text" class="form-control-lg" v-model="party" v-on:keyup.enter="submit">
+            </div>
         </div>
         <div v-else>
             <p>{{ party }}</p>
